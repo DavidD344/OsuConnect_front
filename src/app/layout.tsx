@@ -1,5 +1,6 @@
 import Footer from '@/components/commons/footer';
 import Header from '@/components/commons/header';
+import Navbar from '@/components/commons/navbar';
 import { inter } from './fonts';
 import './globals.css';
 
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className}`}>
         <Header></Header>
+        <Navbar></Navbar>
         {children}
         <Footer></Footer>
       </body>

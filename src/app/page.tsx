@@ -1,21 +1,19 @@
-import {
-  HomeBanner,
-  HomeBannerSubTitle,
-  HomeBannerTitle,
-} from '@/components/home/banner';
-import WorkFeatured from '@/components/home/work/featured';
+'use client';
 
 export default function HomePage() {
+  // const {
+  //   state: { products },
+  // } = useProductsStore();
+  // console.log('porducts', products);
   return (
-    <div className="w-[screen] overflow-hidden space-y-[12rem] md:space-y-[18rem]">
-      <HomeBanner>
+    <div className="w-[screen] overflow-hidden">
+      {/* <HomeBanner>
         <HomeBannerTitle>David is a FullStack Developer</HomeBannerTitle>
         <HomeBannerSubTitle>
           He crafts responsive websites where technologies meet creativity
         </HomeBannerSubTitle>
       </HomeBanner>
-      <WorkFeatured title="Featured Work">dsa</WorkFeatured>
-
+      <WorkFeatured title="Featured Work">dsa</WorkFeatured> */}
       {/* <Image
           src={'/img/home/hero.webp'}
           width={1200}
@@ -24,7 +22,6 @@ export default function HomePage() {
           alt="Hero image"
         ></Image> */}
       {/* 3840x2175--- X*0,56640625    */}
-
       <footer>footer</footer>
       <br />
       <br />
@@ -68,7 +65,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -90,7 +86,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -112,7 +107,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -134,7 +128,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -156,7 +149,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -178,7 +170,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -200,7 +191,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -222,7 +212,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -244,7 +233,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -266,7 +254,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -288,7 +275,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -310,7 +296,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -332,7 +317,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />
@@ -354,7 +338,6 @@ export default function HomePage() {
       <br />
       <br />
       <br />
-
       <br />
       <br />
       <br />

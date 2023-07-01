@@ -1,48 +1,28 @@
 import { Logo } from '@/components/icons/logo';
 import Link from 'next/link';
-import Download from '../download';
 const Header = () => {
-  // const [isOpen, setOpen] = useState(false);
   return (
-    <header className="h-[var(--nav-height)] flex flex-row justify-between pl-[var(--pading-section)] md:pr-[var(--pading-section)] fixed top-0 left-0 z-50 bg-white w-full">
+    <header className="h-[var(--header-height)] w-full flex flex-row items-center justify-between gap-4 _pading_section fixed top-0 left-0 z-50 bg-white border-2 border-black-900 ">
       <Link
         href={'/'}
-        className="font-medium flex text-md items-center h-full w-fit mr-4"
+        className="font-medium flex text-md items-center h-full w-fit"
       >
-        <Logo propClassName="w-[1.8rem] h-[1.8rem] mr-4"></Logo> David Freitas
+        <Logo propClassName="w-[3.2rem] h-[3.2rem] mr-4"></Logo>
+        OsuConnect
       </Link>
 
-      <Download href="sad">Download CV</Download>
-      {/* <span className="h-fit w-fit flex md:hidden">
-        <Hamburger
-          toggled={isOpen}
-          distance="sm"
-          size={24}
-          color="#000"
-          toggle={setOpen}
-        />
-      </span> */}
-      {/* <nav className="hidden">
-        <ul>
-          <li>
-            <Link href="#">Features</Link>
-          </li>
-          <li>
-            <Link href="#">Method</Link>
-          </li>
-
-          <li>
-            <Link href="#">Integrations</Link>
-          </li>
-          <li>
-            <Link href="#">Pricing</Link>
-          </li>
-          <li>
-            <Link href="#">Company</Link>
-          </li>
-        </ul>
-      </nav> */}
+      <div className="flex flex-row w-fit h-fit gap-4 items-center">
+        <div className="w-[3.0rem] h-[2.0rem] bg-blue cursor-pointer"></div>
+        <div className=" w-[4.0rem] h-[4.0rem] rounded-full bg-blue cursor-pointer"></div>
+      </div>
     </header>
   );
 };
 export default Header;
+
+// {
+//   /* <input
+//   type="text"
+//   className="h-[4rem] w-[40rem] border-2 rounded-[3rem] pl-[1.5rem] pr-[1.5rem] border-black-900 bg-gray text-zs font-semibold"
+// /> */
+// }

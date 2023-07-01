@@ -22,7 +22,9 @@ module.exports = {
       '5xl': ['8rem', 1.3],
     },
     colors: {
+      blue: '#00E0FF',
       white: '#fff',
+      gray: '#D9D9D9',
       'white-a08': 'rgba(255,255,255,0.7)',
       background: '#fff',
       'black-900': '#000000',

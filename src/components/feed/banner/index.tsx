@@ -11,7 +11,7 @@ interface IHomeBannerSubTitleProps {
 
 export const HomeBanner = ({ children }: IHomeBannerProps) => {
   return (
-    <section className="_pading_section mt-[var(--nav-height)] w-full flex flex-col justify-between pt-12 gap-10 sm:pt-[16.0rem] sm:gap-[12.0rem]">
+    <section className="_pading_section mt-[var(--header-height)] w-full flex flex-col justify-between pt-12 gap-10 sm:pt-[16.0rem] sm:gap-[12.0rem]">
       <div className=" flex flex-col gap-8  w-full sm:gap-[4.6rem] lg:w-[65%]">
         {children}
       </div>

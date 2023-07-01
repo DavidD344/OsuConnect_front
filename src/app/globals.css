@@ -9,20 +9,31 @@
 }
 
 :root {
-  --pading-section: 5vw;
-  --nav-height: 4.8rem;
+  --pading-section: 1.6rem;
+  --header-height: 5.5rem;
+  --nav-bot-height: 4.8rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   :root {
-    --pading-section: calc((100vw - 1200px) / 2);
-    --nav-height: 4.8rem;
+    /* --pading-section: calc((100vw - 1200px) / 2); */
+    --pading-section: 3.2rem;
+
+    /* --nav-height: 4.8rem; */
   }
 }
 
 ._pading_section {
   padding-left: var(--pading-section);
   padding-right: var(--pading-section);
+}
+.border_width_default {
+  border-width: 0.2rem;
+  /* rounded-[3rem] */
+}
+
+.border_circle_default {
+  border-radius: 3rem;
 }
 
 @layer utilities {
